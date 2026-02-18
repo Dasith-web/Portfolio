@@ -255,8 +255,8 @@ const downloadCV = async () => {
           </div>
           <div className="w-full md:w-2/3 animate-fade-in-right">
             <p className="text-lg mb-6 leading-relaxed">
-              I'm a passionate <span className="font-semibold text-blue-600 dark:text-blue-400">3rd year IT undergraduate</span> with strong foundation in full-stack development and emerging technologies. 
-              Currently expanding my expertise in MERN stack, mobile development, and data analytics through academic projects and self-learning.
+              I'm a passionate <span className="font-semibold text-blue-600 dark:text-blue-400">4th year IT undergraduate</span> with strong foundation in full-stack development and emerging technologies. 
+              Currently expanding my expertise in MERN stack,Springboot,mobile development, and data analytics through academic projects and self-learning.
             </p>
             <p className="text-lg mb-6 leading-relaxed">
               My technical journey combines <span className="font-semibold text-purple-600 dark:text-purple-400">academic knowledge</span> with practical application, focusing on creating efficient and scalable solutions. 
@@ -359,7 +359,7 @@ const downloadCV = async () => {
           {[
             { name: 'React', level: 90, icon: <Cpu size={24} className="text-blue-600 dark:text-blue-400" /> },
             { name: 'JavaScript', level: 85, icon: <Code size={24} className="text-yellow-500" /> },
-            { name: 'TypeScript', level: 80, icon: <Code size={24} className="text-blue-500" /> },
+            { name: 'PHP', level: 80, icon: <Code size={24} className="text-blue-500" /> },
             { name: 'HTML/CSS', level: 95, icon: <Palette size={24} className="text-pink-500" /> },
             { name: 'Node.js', level: 75, icon: <Server size={24} className="text-green-600" /> },
             { name: 'UI/UX Design', level: 70, icon: <Palette size={24} className="text-purple-500" /> },
