@@ -77,7 +77,7 @@ function App() {
   }
 
 const downloadCV = async () => {
-  const url = './public/Dasith_Kavishalya_CV_(1).pdf'; // public/Dasith_Kavishalya_CV.pdf
+  const url = './Dasith_Kavishalya_CV_(1).pdf'; // public/Dasith_Kavishalya_CV.pdf
 
   try {
     const res = await fetch(url);
