@@ -77,21 +77,21 @@ function App() {
   }
 
 const downloadCV = async () => {
-  const url = './Dasith_Kavishalya_CV_(1).pdf'; // public/Dasith_Kavishalya_CV.pdf
+  const url = './Dasith_Kavishalya_Intern_Full_Stack.pdf'; // public/Dasith_Kavishalya_CV.pdf
 
   try {
     const res = await fetch(url);
     if (!res.ok) throw new Error(`Failed to fetch CV: ${res.status} ${res.statusText}`);
 
     const blob = await res.blob();
-    saveAs(blob, 'Dasith_Kavishalya_CV.pdf'); // file-saver
+    saveAs(blob, 'Dasith_Kavishalya_Intern_Full_Stack.pdf'); // file-saver
   } catch (err) {
     console.error('Error downloading CV:', err);
 
     // Fallback: create an anchor to trigger native download / open in new tab
     const link = document.createElement('a');
     link.href = url;
-    link.setAttribute('download', 'Dasith_Kavishalya_CV.pdf');
+    link.setAttribute('download', 'Dasith_Kavishalya_Intern_Full_Stack.pdf');
     document.body.appendChild(link);
     link.click();
     link.remove();
